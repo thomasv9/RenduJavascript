@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javasript</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="portfolio">
+        <div class="filters">
+            <ul>
+                <li data-filter="all" class="active">Tous les projets</li>
+                <li data-filter="jv">Jeux vidéo</li>
+                <li data-filter="3d">Animation 3d</li>
+                <li data-filter="cdeb">Communication digitale</li>
+                <li data-filter="cdi">Dev web</li>
+                <li data-filter="cd">Créa design</li>
+            </ul>
+        </div>
+        <div class="portfolio-elements">
+            <div class="card filtr-item" data-category="jv">
+                <div class="card-header">
+                    <p class="card-title">Portal</p>
+                    <div class="card-axe">Jeux vidéo</div>
+                </div>
+
+                <a href="./portal.webp">
+                    <img src="./portal.webp" alt="Portal">
+                </a>
+            </div>
+
+            <div class="card filtr-item" data-category="3d">
+                <div class="card-header">
+                    <p class="card-title">Adibou</p>
+                    <div class="card-axe">Animation 3d</div>
+                </div>
+
+                <a href="./adibou.jpg">
+                    <img src="./adibou.jpg" alt="Adibou">
+                </a>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js" integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: white;
+}
+
+.slide-dw {
+    background-image: url("https://carfans.fr/wp-content/uploads/2023/01/NISSAN-GT-R-NISMO-Special-edition-MY2024_01.jpeg.webp");
+    background-size: cover;
+}
+
+.slide-cd {
+    background-image: url("https://i.gaw.to/content/photos/55/75/557552-une-nissan-gt-r-2024-modernisee-arrive-au-canada-ce-printemps.jpeg");
+    background-size: cover;
+}
+
+.slide-cdeb {
+    background-image: url("https://www.makeupcoltd.co.jp/html/user_data/assets/img/freearea/EIDOLON/EM624/IMG_3210-2.png");
+    background-size: cover;
+}
